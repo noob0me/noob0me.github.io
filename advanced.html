@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Advanced Search</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	
+	</head>
+	<body>
+				<span style="position: relative;left: 40px;top:70px;color: #d93025;font-size: 20px;">Advanced Search</span>
+		<a href="index.html" >Google Search</a>
+		<hr></hr>
+		<div>
+		<span style=" position: relative; padding-left: 40px;top:40px;font-size:16px; font-family: arial,san-serif;">Find 
+		pages with...</span>
+		<span id = "trash" style=" position: relative;display:inline-block;left:48%;top:75px;font-size:14px;color: #777; font-family: arial,san-serif;">To do this in search box.</span>
+	</div>
+
+		<br></br>
+
+		<form action ="https://www.google.com/search">
+
+		<div id="grid">
+			<div class="comp"><span>all these words:</span><input class="fill" name="as_q" type="text"></div>
+			<div class = "ex" >Type the important words: tri-colour rat terrier</div>
+
+			<div class="comp"><span>this exact word or phrase:</span><input class="fill" name="as_epq" type="text"></div>
+			<div class = "ex">Put exact words in quotes: "rat terrier"</div>
+
+			<div class="comp"><span>any of these words:</span><input class="fill" name="as_oq" type="text"></div>
+			<div class = "ex">Type OR between all the words you want: miniature OR standard</div>
+
+			<div class="comp"><span>none of these words:</span><input class="fill" name="as_eq" type="text"></div>
+			<div class = "ex">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+
+			<div class = "comp" ><span>numbers ranging from:</span>
+			<div class = "fill" style="border: none;">
+				<div class ="range">
+				<input class="case" name="as_nlo" type="text" style="width: 46%;">
+			<span style="padding-right: 6px;padding-left:6px;padding-top: 8px;">to</span>		
+
+			<input class="case" name="as_nhi" type="text" style="width: 50%;"></div>
+			</div></div>
+
+			<div class = "ex" >Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</div>
+		</div>
+			<input id = "adv"  value="Advanced Search" type="submit">
+	</form>
+
+
+
+	</body>	
+</html>
+
+
