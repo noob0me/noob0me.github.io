@@ -141,6 +141,10 @@ button{
 	.fill:focus{
     outline-color:    #99bbff; 
 }
+	.case:focus{
+    outline-color:    #99bbff; 
+		
+	}
 
 hr{
     margin-top: 100px;  
